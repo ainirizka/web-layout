@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Layout dengan tabel</title>
+        <style>
+            table{
+                width: 100%;
+            }
+            .jumbotron{
+                height: 300px;
+                background-color: rgba(0, 255, 234, 0.87);
+                font-size: 20pt;
+                text-align: center;
+            }
+            .navigasi{
+                text-align: center;
+                font-size: 12pt;
+            }
+            .container{
+                padding: 12px;
+                background-color: pink;
+                height: 540px;
+                text-align: center;
+            }
+            .footer{
+                text-align: center;
+                text-decoration: double;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="2">
+            <tr>
+                <td colspan="3" class="jumbotron">Jumbotron</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="navigasi">Menu/Navigasi</td>
+            </tr>
+            <tr>
+                <td class="container" width="20%">Sidebar kiri</td>
+                <td class="container" width="60%">Konten inti</td>
+                <td class="container" width="20%">Sidebar Kanan</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="footer">Footer</td>
+            </tr>
+        </table>
+    </body>
+</html>
